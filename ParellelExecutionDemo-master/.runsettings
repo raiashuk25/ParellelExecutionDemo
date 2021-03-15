@@ -1,0 +1,13 @@
+﻿<RunSettings>
+  <NUnit>
+    <NumberOfTestWorkers>3</NumberOfTestWorkers>
+  </NUnit>
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+   <!-- <Parameter name ="browser" value="chrome" /> -->
+    <Parameter name ="type" value="remote" />
+    <Parameter name ="wait" value="30" />
+    <Parameter name ="debug" value="false" />
+    <Parameter name ="huburl" value="http://localhost:4444/wd/hub/" />
+  </TestRunParameters>
+</RunSettings>
